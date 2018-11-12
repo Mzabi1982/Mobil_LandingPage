@@ -1,0 +1,108 @@
+@import url('https://fonts.google.com/?selection.family=Roboto');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    box-sizing: border-box;
+    
+}
+
+
+
+h1{
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 2rem 0 2rem rgba(0,0,0,0.1),
+    -3rem 0 3rem rgba(0,0,0,0.1);
+    
+
+}
+
+#landing{
+    background: #fff;
+}
+
+#text{
+    display: flex;
+    height:  50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ccc;
+    flex:0 1 40vw;
+
+    
+}
+
+#text h2{
+    color: gray;
+    padding: 0.6rem 0;
+}
+#lending-text{
+    margin: 1rem 
+}
+
+#text a{
+    text-decoration: none;
+    color: gray;
+    padding: 0.3rem 1rem;
+    margin: 0.8rem;
+    border-radius: 50px;
+    border:1px solid gray;
+    margin: 1rem 0px 0px 0px;
+    transition: all 1s ease-in-out;
+}
+
+#text a:hover{
+    background: gray;
+    color:#fff;
+
+}
+
+#image{
+    background:url('./camera.jpeg') no-repeat center center / cover;
+    height: 50vh;
+    margin: 0;
+    
+}
+
+#header{
+ 
+ text-align: center;
+ background-color: gray;
+ color:#fff;
+ padding: 1rem;
+}
+
+#header h2{
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+
+
+
+
